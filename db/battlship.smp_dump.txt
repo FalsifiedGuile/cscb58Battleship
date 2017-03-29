@@ -1,0 +1,14 @@
+
+State Machine - |battleship|control:counters|current_state
+Name current_state.S_CYCLE_0_WAIT current_state.S_CYCLE_0 current_state.S_LOAD_DES_WAIT current_state.S_LOAD_SUB_WAIT current_state.S_LOAD_SUB current_state.S_LOAD_CRU_WAIT current_state.S_LOAD_CRU current_state.S_LOAD_BS_WAIT current_state.S_LOAD_BS current_state.S_LOAD_AC_WAIT current_state.S_LOAD_AC 
+current_state.S_LOAD_AC 0 0 0 0 0 0 0 0 0 0 0 
+current_state.S_LOAD_AC_WAIT 0 0 0 0 0 0 0 0 0 1 1 
+current_state.S_LOAD_BS 0 0 0 0 0 0 0 0 1 0 1 
+current_state.S_LOAD_BS_WAIT 0 0 0 0 0 0 0 1 0 0 1 
+current_state.S_LOAD_CRU 0 0 0 0 0 0 1 0 0 0 1 
+current_state.S_LOAD_CRU_WAIT 0 0 0 0 0 1 0 0 0 0 1 
+current_state.S_LOAD_SUB 0 0 0 0 1 0 0 0 0 0 1 
+current_state.S_LOAD_SUB_WAIT 0 0 0 1 0 0 0 0 0 0 1 
+current_state.S_LOAD_DES_WAIT 0 0 1 0 0 0 0 0 0 0 1 
+current_state.S_CYCLE_0 0 1 0 0 0 0 0 0 0 0 1 
+current_state.S_CYCLE_0_WAIT 1 0 0 0 0 0 0 0 0 0 1 
